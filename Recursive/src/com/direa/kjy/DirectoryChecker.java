@@ -20,6 +20,7 @@ public class DirectoryChecker {
 			String[] fileNameSplit = fileName.split("\\.");
 			if(fileNameSplit.length < 2) continue;
 			System.out.println(fileName + " + " + fileNameSplit[1]);
+			
 		}
 
 	}
